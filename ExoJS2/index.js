@@ -28,4 +28,34 @@ if ((rand >= 0) && (rand <= 10)) {
 
 */
 
-// Exercice 3
+/* Exercice 3
+
+var date = new Date();
+var getDay = date.getDay();
+switch(getDay){
+  case 1 :
+    console.log("Il est Lundi...");
+    break;
+  case 2 :
+    console.log("Il est mardi");
+    break;
+  case 3 :
+    console.log("Il est mercredi");
+    break;
+  case 4 :
+    console.log("Il est jeudi");
+  case 5 :
+    console.log("Il est vendredi");
+  case 6 :
+    console.log("Il est samedi");
+    break;
+  case 0 :
+    console.log("Enfin dimanche !");  
+    break;
+  default:
+      console.log("Je sais pas  ");
+} 
+
+*/
+
+/* Exercice 4
